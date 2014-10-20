@@ -10,7 +10,7 @@ ENV LC_ALL en_US.UTF-8
 RUN /usr/bin/apt-get update && /usr/bin/apt-get -y upgrade
 
 RUN /usr/bin/apt-get install -y \
-	python-dev \
+	python-dev python-pip \
 	libxml2-dev libxslt1-dev \
 	postgresql-client-9.3 libpq5 \
 	libpq-dev \
